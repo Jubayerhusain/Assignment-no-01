@@ -84,9 +84,9 @@ header nav a{
 /* why-web-development style */
 .why-web-development{
     max-width: 1140px;
-    /* min-height: 1395px; */
+    min-height: 1200px;
     /* border: 2px solid red; */
-    margin: 100px auto;
+    margin: 70px auto;
     border-radius: 15px;
     background: rgba(13, 19, 33, 0.02);
 }
@@ -136,9 +136,10 @@ header nav a{
 }
 .why-web-development .box-title a{
     padding: 10px;
-    border: 2px solid rgb(13, 19, 33);
+    /* border: 2px solid rgb(13, 19, 33); */
     /* border-radius: 5px; */
-    text-decoration: none;
+    text-decoration: underline;
+    font-weight: 700;
     color: black;
 
 }
@@ -314,4 +315,18 @@ header nav a{
     padding: 15px;
     border: none;
     font-weight: 700;
+}
+
+/* footer-section-style */
+.footer-section{
+    justify-content: space-between;
+    max-width: 1440px;
+    border-radius: 16px;
+    padding: 20px 95px;
+    display: flex;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-section .right-side{
+    display: flex;
+    gap: 2px;
 }
