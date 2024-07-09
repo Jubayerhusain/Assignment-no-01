@@ -10,7 +10,8 @@ body{
 /* header-section style */
 header{
     max-width: 1440px;
-    border: 3px solid red;
+    padding: 10px 0px;
+    /* border: 3px solid red; */
 }
 header nav{
     margin: 25px auto;
@@ -23,7 +24,6 @@ header nav{
 header nav h2{
     font-size: 40px;
     color: rgb(13, 19, 33)
-    /* display: inline-block; */
 }
 header nav a{
     text-decoration: none;
@@ -32,4 +32,52 @@ header nav a{
     border: 2px solid rgb(13, 19, 33); ;
     border-radius: 5px;
     padding: 10px;
+}
+
+/* banner-section style */
+.banner-section{
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url(../assets/Hero-bg.png);
+    max-width: 1440px;
+    min-height: 652px;
+}
+.banner-section .banner-conteiner{
+    width: 60%;
+    margin:0px auto;
+    padding-top: 80px;
+}
+.banner-section .banner-conteiner img{
+    display: block;
+    align-items: center;
+    margin: auto;
+
+}
+.banner-section .banner-conteiner .banner-title{
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0%;
+}
+.banner-section .banner-conteiner .banner-content{
+    font-size: 15px;
+    letter-spacing: 0%;
+    display: block;
+    text-align: center;
+    margin: 15px 10px;
+    text-transform: capitalize;
+}
+.banner-section .banner-conteiner .btn{
+    font-size: 25px;
+    padding: 15px 15px;
+    background-color: rgb(13, 19, 33);
+    color: #fff;
+    letter-spacing: 0%;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
 }
