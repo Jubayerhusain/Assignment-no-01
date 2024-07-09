@@ -81,3 +81,64 @@ header nav a{
     margin: auto;
     margin-top: 50px;
 }
+/* why-web-development style */
+.why-web-development{
+    max-width: 1140px;
+    /* min-height: 1395px; */
+    /* border: 2px solid red; */
+    margin: 100px auto;
+    border-radius: 15px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.why-web-development .title-box{
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+}
+.why-web-development .title-box h2{
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0%;
+    padding-top: 20px;
+}
+.why-web-development .title-box p{
+    letter-spacing: 0%;
+    display: block;
+    text-align: center;
+    margin: 10px 0px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 15px;
+}
+.why-web-development .box{
+    width: 80%;
+    margin:70px auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.why-web-development .box-title{
+    width: 60%;
+}
+.why-web-development .box-title h2{
+    margin: 10px 0px;
+}
+.why-web-development .box-title p{
+    margin: 20px 0px 40px 0px;
+
+}
+.why-web-development .box-title a{
+    padding: 10px;
+    border: 2px solid rgb(13, 19, 33);
+    /* border-radius: 5px; */
+    text-decoration: none;
+    color: black;
+
+}
+
+.why-web-development .box-image{
+    width: 30%;
+
+}
