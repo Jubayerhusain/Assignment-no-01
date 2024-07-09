@@ -117,8 +117,12 @@ header nav a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 
 }
+.why-web-development .box2{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);}
 .why-web-development .box-title{
     width: 60%;
 }
@@ -127,6 +131,7 @@ header nav a{
 }
 .why-web-development .box-title p{
     margin: 20px 0px 40px 0px;
+    font-size: 15;
 
 }
 .why-web-development .box-title a{
@@ -140,5 +145,36 @@ header nav a{
 
 .why-web-development .box-image{
     width: 30%;
-
+}
+/* inspiration-section-style */
+.inspiration-section{
+    max-width: 1140px;
+    /* min-height: 395px; */
+    /* border: 2px solid red; */
+    margin: 100px auto;
+}
+.inspiration-section .inspiration-title-box{
+    width: 70%;
+    padding-top: 50px;
+    margin: 20px auto;
+    text-align: center;
+}
+.inspiration-section .inspiration-title-box h2{
+    padding-bottom: 20px;
+}
+.inspiration-section .inspiration-title-box span{
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.inspiration-section .video-box{
+    width: 90%;
+    margin: 20px auto;
+    padding-left: ;
+}
+.inspiration-section .video-box .video{
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid rgba(14, 19, 28, 0.377);
 }
