@@ -228,3 +228,39 @@ header nav a{
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
+
+/* My Next Target section style */
+.next-target{
+    max-width: 1140px;
+    /* min-height: 695px; */
+    margin: 70px auto;
+    /* border: 2px solid yellow; */
+}
+.next-target .head-conteiner{
+    width: 70%;
+    margin: 0px auto;
+    padding-bottom: 25px;
+    text-align: center;
+    display: block;
+}
+.next-target .taget-box{
+    padding: 15px;
+    border-radius: 15px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    gap: 20px;
+    border: 2px solid rgba(14, 19, 28, 0.377);
+}
+.next-target .target-content{
+    /* border: 2px solid yellow; */
+    text-align: left;
+}
+.next-target .target-content h1{
+    margin-left: 10px;
+}
+.next-target .target-content a{
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+}
