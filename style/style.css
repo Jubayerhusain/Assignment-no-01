@@ -169,7 +169,6 @@ header nav a{
 .inspiration-section .video-box{
     width: 90%;
     margin: 20px auto;
-    padding-left: ;
 }
 .inspiration-section .video-box .video{
     width: 100%;
@@ -177,4 +176,55 @@ header nav a{
     border-radius: 10px;
     padding: 20px;
     border: 2px solid rgba(14, 19, 28, 0.377);
+}
+
+/* My Current Target section style */
+.current-target{
+    max-width: 1140px;
+    min-height: 395px;
+    margin: 50px auto;
+    /* border: 2px solid yellow; */
+}
+.current-target .target-title-box{
+    margin: 20px auto;
+    width: 70%;
+    text-align: center;
+}
+.current-target .target-title-box h2,span{
+    margin: 20px;
+    text-transform: capitalize;
+}
+.target-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.current-target .target{
+    width: 28%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    gap: 20px;
+
+}
+.current-target .target img, h3, span,a{
+    display: block;
+    margin: 0px;
+    padding: 10px;
+}
+.current-target .target a{
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+}
+
+.target1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.target3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }
