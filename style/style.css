@@ -264,3 +264,54 @@ header nav a{
     color: rgb(13, 19, 33);
     font-weight: 700;
 }
+
+/* support-container style */
+.support-container{
+    max-width: 1140px;
+    min-height: 313px;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 70px auto;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+.support-desk{
+    width: 100%;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.support-container .support-content{
+    width: 65%;
+    padding: 40px;
+    margin: 0px auto;
+    text-align: center;
+}
+.support-container .support-content h2{
+    color: rgb(255, 255, 255);
+    padding: 20px 0px;
+}
+.support-container .support-content p{
+    color: rgb(193, 187, 187);
+}
+.support-container .support-input{
+    width: 65%;
+    margin: 0px auto;
+    text-align: center;
+}
+.support-container .support-input input[type=text]{
+    font-size: 20px;
+    padding: 15px;
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+}
+.support-container .support-input input[type=submit] {
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    font-weight: 700;
+}
